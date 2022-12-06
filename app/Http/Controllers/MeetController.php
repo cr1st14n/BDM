@@ -12,4 +12,8 @@ class MeetController extends Controller
     {
         return view('meet.view_1');
     }
+    public function view_2()
+    {
+        return view('meet.view_form_create');
+    }
 }

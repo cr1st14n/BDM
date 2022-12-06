@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->
@@ -29,7 +29,7 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>Bracket Responsive Bootstrap 4 Admin Template</title>
+    <title>NAABOl | MEET</title>
 
     <!-- vendor css -->
     <link href="{{ asset('resources/plantilla/lib/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
@@ -44,7 +44,7 @@
 <body>
 
     <!-- ########## START: LEFT PANEL ########## -->
-    <div class="br-logo"><a href=""><span>[</span>bracket<span>]</span></a></div>
+    <div class="br-logo"><a href=""><span>[</span>Naabol<span>|</span>Meet<span>]</span></a></div>
     <div class="br-sideleft overflow-y-auto">
         <label class="sidebar-label pd-x-15 mg-t-20">Navigation</label>
         <div class="br-sideleft-menu">
@@ -57,13 +57,13 @@
             <a href="#" class="br-menu-link" onclick="funcView(2)">
                 <div class="br-menu-item">
                     <i class="menu-item-icon icon ion-ios-email-outline tx-24"></i>
-                    <span class="menu-item-label">Agregar</span>
+                    <span class="menu-item-label">Formulario registro</span>
                 </div><!-- menu-item -->
             </a><!-- br-menu-link -->
             <a href="#" class="br-menu-link" onclick="funcView(3)">
                 <div class="br-menu-item">
                     <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
-                    <span class="menu-item-label">Table</span>
+                    <span class="menu-item-label">Datos</span>
                 </div><!-- menu-item -->
             </a><!-- br-menu-link -->
         </div><!-- br-sideleft-menu -->
@@ -164,7 +164,7 @@
                             <!-- loop ends here -->
                             <a href="" class="media-list-link read">
                                 <div class="media pd-x-20 pd-y-15">
-                                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                    <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                         alt="">
                                     <div class="media-body">
                                         <div class="d-flex align-items-center justify-content-between mg-b-5">
@@ -178,7 +178,7 @@
                             </a>
                             <a href="" class="media-list-link read">
                                 <div class="media pd-x-20 pd-y-15">
-                                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                    <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                         alt="">
                                     <div class="media-body">
                                         <div class="d-flex align-items-center justify-content-between mg-b-5">
@@ -192,7 +192,7 @@
                             </a>
                             <a href="" class="media-list-link read">
                                 <div class="media pd-x-20 pd-y-15">
-                                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                    <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                         alt="">
                                     <div class="media-body">
                                         <div class="d-flex align-items-center justify-content-between mg-b-5">
@@ -230,7 +230,7 @@
                             <!-- loop starts here -->
                             <a href="" class="media-list-link read">
                                 <div class="media pd-x-20 pd-y-15">
-                                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                    <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                         alt="">
                                     <div class="media-body">
                                         <p class="tx-13 mg-b-0 tx-gray-700"><strong
@@ -243,7 +243,7 @@
                             <!-- loop ends here -->
                             <a href="" class="media-list-link read">
                                 <div class="media pd-x-20 pd-y-15">
-                                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                    <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                         alt="">
                                     <div class="media-body">
                                         <p class="tx-13 mg-b-0 tx-gray-700"><strong
@@ -255,18 +255,19 @@
                             </a>
                             <a href="" class="media-list-link read">
                                 <div class="media pd-x-20 pd-y-15">
-                                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                    <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                         alt="">
                                     <div class="media-body">
                                         <p class="tx-13 mg-b-0 tx-gray-700">20+ new items added are for sale in your
-                                            <strong class="tx-medium tx-gray-800">Sale Group</strong></p>
+                                            <strong class="tx-medium tx-gray-800">Sale Group</strong>
+                                        </p>
                                         <span class="tx-12">October 01, 2017 10:20pm</span>
                                     </div>
                                 </div><!-- media -->
                             </a>
                             <a href="" class="media-list-link read">
                                 <div class="media pd-x-20 pd-y-15">
-                                    <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                    <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                         alt="">
                                     <div class="media-body">
                                         <p class="tx-13 mg-b-0 tx-gray-700"><strong
@@ -287,7 +288,7 @@
                 <div class="dropdown">
                     <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
                         <span class="logged-name hidden-md-down">Katherine</span>
-                        <img src="http://via.placeholder.com/64x64" class="wd-32 rounded-circle" alt="">
+                        <img src="https://via.placeholder.com/64x64" class="wd-32 rounded-circle" alt="">
                         <span class="square-10 bg-success"></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-header wd-200">
@@ -343,7 +344,7 @@
                     <a href="" class="contact-list-link new">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-success bd-br-primary"></div>
                             </div>
@@ -358,7 +359,7 @@
                     <a href="" class="contact-list-link">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-success bd-br-primary"></div>
                             </div>
@@ -371,7 +372,7 @@
                     <a href="" class="contact-list-link new">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-success bd-br-primary"></div>
                             </div>
@@ -386,7 +387,7 @@
                     <a href="" class="contact-list-link new">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-success bd-br-primary"></div>
                             </div>
@@ -401,7 +402,7 @@
                     <a href="" class="contact-list-link">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-success bd-br-primary"></div>
                             </div>
@@ -414,7 +415,7 @@
                     <a href="" class="contact-list-link">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-success bd-br-primary"></div>
                             </div>
@@ -427,7 +428,7 @@
                     <a href="" class="contact-list-link">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-success bd-br-primary"></div>
                             </div>
@@ -445,7 +446,7 @@
                     <a href="" class="contact-list-link">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-gray-500 bd-br-primary"></div>
                             </div>
@@ -458,7 +459,7 @@
                     <a href="" class="contact-list-link">
                         <div class="d-flex">
                             <div class="pos-relative">
-                                <img src="http://via.placeholder.com/280x280" class="wd-40 rounded-circle"
+                                <img src="https://via.placeholder.com/280x280" class="wd-40 rounded-circle"
                                     alt="">
                                 <div class="contact-status-indicator bg-gray-500 bd-br-primary"></div>
                             </div>
@@ -748,20 +749,8 @@
 
     <!-- ########## START: MAIN PANEL ########## -->
     <div class="br-mainpanel">
-        <div class="br-pageheader pd-y-15 pd-l-20">
-            <nav class="breadcrumb pd-0 mg-0 tx-12">
-                <a class="breadcrumb-item" href="index.html">Bracket</a>
-                <span class="breadcrumb-item active">Blank Page</span>
-            </nav>
-        </div><!-- br-pageheader -->
-        <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
-            <h4 class="tx-gray-800 mg-b-5">Blank Page (Default Layout)</h4>
-            <p class="mg-b-0">Introducing Bracket admin template, the most handsome admin template of all time.</p>
-        </div>
+        <div class="br-pagebody" id="body_1">
 
-        <div class="br-pagebody">
-
-            <!-- start you own content here -->
 
         </div><!-- br-pagebody -->
 
