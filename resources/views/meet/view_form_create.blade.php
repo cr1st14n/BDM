@@ -1,192 +1,129 @@
 <div class="br-section-wrapper">
-    <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Basic Form Input</h6>
-    <p class="mg-b-25 mg-lg-b-50">A basic form control with disabled and readonly mode.</p>
-
+    <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Registro de datos MEET</h6>
     <div class="row">
         <div class="col-lg-2">
             <div class="form-group">
-                <label class="form-control-label">Direccion Viento: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="number" name="firstname" id="dirVien" onkeyup="marq_1()" >
+                <label class="form-control-label">FECHA: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="date" name="firstname" id="dirVien"
+                    onkeyup="marq_1()" required>
+            </div>
+        </div><!-- col -->
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label class="form-control-label">HORA.: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="time" name="firstname" id="min"
+                    onkeyup="marq_1()">
+            </div>
+        </div><!-- col -->
+    </div><!-- row -->
+    <div class="row">
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label class="form-control-label">Direccion del Viento: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname" required>
             </div>
         </div><!-- col -->
         <div class="col-lg-1">
             <div class="form-group">
-                <label class="form-control-label">Min.: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="number" name="firstname"  id="min" onkeyup="marq_1()">
+                <label class="form-control-label">Velocidad: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname">
             </div>
-        </div><!-- col -->1
-        <div class="col-lg-1">
+        </div><!-- col -->
+    </div><!-- row -->
+    <div class="row">
+        <div class="col-lg-2">
             <div class="form-group">
-                <label class="form-control-label">Max: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="number" name="firstname"  id="max" onkeyup="marq_1()">
+                <label class="form-control-label">Rafagas: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname" required>
             </div>
         </div><!-- col -->
         <div class="col-lg-1">
             <div class="form-group">
-                <label class="form-control-label">Trend: <span class="tx-danger">*</span></label>
-                <select class=" form-control form-control-sm" name="" id="trend" onchange="marq_1()">
-                    <option value="NOSIG">NOSIG</option>
-                    <option value="TEMPO">TEMPO</option>
-                    <option value="BMC">BMC</option>
-                </select>
+                <label class="form-control-label">Variacion del Viento: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname" required>
+            </div>
+        </div><!-- col -->
+    </div><!-- row -->
+    <div class="row">
+        <div class="col-lg">
+            <div class="form-group">
+                <label class="form-control-label">Visibilidad: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname" required>
+            </div>
+        </div><!-- col -->
+
+        <div class="col-lg-5">
+            <div class="form-group">
+                <label class="form-control-label">Dirección Visibilidad</label>: <span
+                    class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname" required>
+            </div>
+        </div><!-- col -->
+        <div class="col-lg-5">
+            <div class="form-group">
+                <label class="form-control-label">Tiempo Presente Observado</label>: <span
+                    class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname" required>
+                <input class="form-control form-control-sm" type="text" name="firstname" required>
+                <input class="form-control form-control-sm" type="text" name="firstname" required>
             </div>
         </div><!-- col -->
 
     </div><!-- row -->
     <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg">
             <div class="form-group">
-                <label class="form-control-label">Velocidad Viento: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
+                <label class="form-control-label">Nubosidad : <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" placeholder="Primero" type="text" name="firstname"
+                    placeholder="Primera" required>
+                <input class="form-control form-control-sm" placeholder="Segundo" type="text" name="firstname"
+                    placeholder="Segunda" required>
+                <input class="form-control form-control-sm" placeholder="Tercero" type="text" name="firstname"
+                    placeholder="Tercera" required>
+                <input class="form-control form-control-sm" placeholder="Cuarto" type="text" name="firstname"
+                    placeholder="Cuarta" required>
             </div>
         </div><!-- col -->
-        <div class="col-lg-1">
+    </div><!-- row -->
+    <div class="row">
+        <div class="col-lg">
             <div class="form-group">
-                <label class="form-control-label">Rafaga: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
+                <label class="form-control-label"> Temperatura: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="number" name="firstname" required>
             </div>
         </div><!-- col -->
-        <div class="col-lg-3">
+        <div class="col-lg">
             <div class="form-group">
-                <label class="form-control-label">Trend</label>: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
+                <label class="form-control-label">Temperatura Punto de Rocio: <span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="number" name="firstname">
             </div>
         </div><!-- col -->
-
     </div><!-- row -->
     <div class="row">
         <div class="col-lg-2">
             <div class="form-group">
-                <label class="form-control-label">Preción de Aerodromo: <span class="tx-danger">*</span></label>
+                <label class="form-control-label">QFE: <span class="tx-danger">*</span></label>
                 <input class="form-control form-control-sm" type="text" name="firstname">
+               
             </div>
         </div><!-- col -->
-        <div class="col-lg-1">
+        <div class="col-lg-2">
             <div class="form-group">
                 <label class="form-control-label">QNH: <span class="tx-danger">*</span></label>
                 <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg-1">
-            <div class="form-group">
-                <label class="form-control-label">HG</label>: <span class="tx-danger">*</span></label>
                 <input class="form-control form-control-sm" type="text" name="firstname">
             </div>
         </div><!-- col -->
 
-    </div><!-- row -->
-    <div class="row">
-        <div class="col-lg">
+        <div class="col-lg-12">
             <div class="form-group">
-                <label class="form-control-label">Temperaturas: <span class="tx-danger">*</span></label>
+                <label class="form-control-label">-</label>QNH (plgHg): <span class="tx-danger">*</span></label>
                 <input class="form-control form-control-sm" type="text" name="firstname">
             </div>
         </div><!-- col -->
-        <div class="col-lg">
+        <div class="col-lg-12">
             <div class="form-group">
-                <label class="form-control-label">TT: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg-5">
-            <div class="form-group">
-                <label class="form-control-label">TD</label>: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-
-    </div><!-- row -->
-    <div class="row">
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">HR: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">PASOS: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg-5">
-            <div class="form-group">
-                <label class="form-control-label">HG</label>: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-
-    </div><!-- row -->
-    <div class="row">
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label"> VISIBILIDAD: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">Dir.Vis.: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg-5">
-            <div class="form-group">
-                <label class="form-control-label">Cortante Viento</label>: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-
-    </div><!-- row -->
-    <div class="row">
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label"> VISIBILIDAD: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">Dir.Vis.: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg-5">
-            <div class="form-group">
-                <label class="form-control-label">Cortante Viento</label>: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-
-    </div><!-- row -->
-    <div class="row">
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">NUBOSIDAD: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">-: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">-: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">-</label>: <span class="tx-danger">*</span></label>
-                <input class="form-control form-control-sm" type="text" name="firstname">
-            </div>
-        </div><!-- col -->
-        <div class="col-lg">
-            <div class="form-group">
-                <label class="form-control-label">-</label>NOTAS: <span class="tx-danger">*</span></label>
+                <label class="form-control-label">-</label>Humedad Relativa<span class="tx-danger">*</span></label>
                 <input class="form-control form-control-sm" type="text" name="firstname">
             </div>
         </div><!-- col -->
@@ -194,9 +131,32 @@
     </div><!-- row -->
     <hr>
     <div class="row">
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label class="form-control-label">-</label>P/Cord<span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname">
+            </div>
+        </div><!-- col -->
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label class="form-control-label">-</label>Notas<span class="tx-danger">*</span></label>
+                <input class="form-control form-control-sm" type="text" name="firstname">
+            </div>
+        </div><!-- col -->
+        <div class="col-lg-2">
+            <div class="form-group">
+                <label class="form-control-label">-</label>TREND<span class="tx-danger">*</span></label>
+                <select class=" form-control form-control-sm" name="" id="">\
+                    <option value="NOSING">NOSING</option>
+                    <option value="TNMPOP">TNMPOP</option>
+                    <option value="BMG">BMG</option>
+                </select>
+            </div>
+        </div><!-- col -->
         <div class="col-lg-12">
             <div class="form-group">
-                <textarea class=" form-control form-control-sm" id="text_1" name="" id="" cols="100%" rows="10"></textarea>
+                <textarea class=" form-control form-control-sm" id="text_1" name="" id="" cols="100%"
+                    rows="10"></textarea>
             </div>
         </div><!-- col -->
     </div><!-- row -->
