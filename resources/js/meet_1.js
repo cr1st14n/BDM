@@ -1,9 +1,9 @@
 let data_text = "";
 
-let dirVien =''
-let min =''
-let max =''
-let trend =''
+let dirVien = "";
+let min = "";
+let max = "";
+let trend = "";
 function funcView(tipo) {
     let ruta = "";
     let data = "";
@@ -27,20 +27,11 @@ function funcView(tipo) {
         url: "/BDM/" + ruta,
         data: data,
         success: function (response) {
-            console.log(response);
             $("#body_1").html(response);
         },
     });
 }
-function show_1() {
-    $("#text_1").val(data_text);
-}
 
-function marq_1() {
-
-
-
-    show_1()
-}
-
-
+const create = (val) => {
+    console.log(val)
+};
