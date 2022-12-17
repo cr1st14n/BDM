@@ -33,5 +33,13 @@ function funcView(tipo) {
 }
 
 const create = (val) => {
-    console.log(val)
+    console.log(val);
+    $.ajax({
+        type: "get",
+        url: "/BDM/meet/store_1",
+        data: $('#form_1').serialize(),
+        success: (respuesta = (response) => {
+            console.log(response);
+        }),
+    });
 };

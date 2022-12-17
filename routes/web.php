@@ -22,4 +22,6 @@ Route::group(['prefix'=>'meet'],function ()
 {
     Route::get('/',[MeetController::class,'view_1']);
     Route::get('/create',[MeetController::class,'view_2']);
+    Route::get('/store_1',[MeetController::class,'store_1']);
+
 });
