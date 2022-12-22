@@ -8,6 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class meet extends Model
 {
     use HasFactory;
-
-
+    protected $table='meets';
 }

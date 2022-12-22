@@ -1,9 +1,3 @@
-let data_text = "";
-
-let dirVien = "";
-let min = "";
-let max = "";
-let trend = "";
 function funcView(tipo) {
     let ruta = "";
     let data = "";
@@ -33,13 +27,19 @@ function funcView(tipo) {
 }
 
 const create = (val) => {
-    console.log(val);
     $.ajax({
         type: "get",
         url: "/BDM/meet/store_1",
-        data: $('#form_1').serialize(),
-        success: (respuesta = (response) => {
+        data: $("#form_1_dbm").serialize(),
+        // dataType: "dataType",
+        success: function (response) {
             console.log(response);
-        }),
+        },
+    });
+};
+
+const list_1 = () => {
+    $.get("/BDM/meet/list_1", {}, function (data, textStatus, jqXHR) {
+        console.log(data);
     });
 };
